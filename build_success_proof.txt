@@ -1,0 +1,415 @@
+Build Success Proof for https://github.com/stix26/react.git
+============================================================
+
+- The repository was cloned and built on macOS (Darwin 24.5.0).
+- No code changes or adjustments were required after the initial clone.
+- All dependencies were installed using `yarn install --frozen-lockfile`.
+- The build was run with `yarn build` and completed successfully with no errors.
+- This file contains the full build output as proof for sharing on GitHub.
+
+---
+
+yarn run v1.22.22
+$ ./scripts/react-compiler/link-compiler.sh
+warning There's already a package called "babel-plugin-react-compiler" registered. This command has had no effect. If this command was run in another folder with the same name, the other folder is still linked. Please run yarn unlink in the other folder if you want to register this folder.
+$ node ./scripts/rollup/build-all-release-channels.js
+ BUILDING  react.development.js (node_dev)
+ COMPLETE  react.development.js (node_dev)
+
+ BUILDING  react.production.js (node_prod)
+ COMPLETE  react.production.js (node_prod)
+
+ BUILDING  React-dev.js (fb_www_dev)
+ COMPLETE  React-dev.js (fb_www_dev)
+
+ BUILDING  React-prod.js (fb_www_prod)
+ COMPLETE  React-prod.js (fb_www_prod)
+
+ BUILDING  React-profiling.js (fb_www_profiling)
+ COMPLETE  React-profiling.js (fb_www_profiling)
+
+ BUILDING  React-dev.js (rn_fb_dev)
+ COMPLETE  React-dev.js (rn_fb_dev)
+
+ BUILDING  React-prod.js (rn_fb_prod)
+ COMPLETE  React-prod.js (rn_fb_prod)
+
+ BUILDING  React-profiling.js (rn_fb_profiling)
+ COMPLETE  React-profiling.js (rn_fb_profiling)
+
+ BUILDING  react.react-server.development.js (node_dev)
+ COMPLETE  react.react-server.development.js (node_dev)
+
+ BUILDING  react.react-server.production.js (node_prod)
+ COMPLETE  react.react-server.production.js (node_prod)
+
+ BUILDING  react-jsx-runtime.development.js (node_dev)
+ COMPLETE  react-jsx-runtime.development.js (node_dev)
+
+ BUILDING  react-jsx-runtime.production.js (node_prod)
+ COMPLETE  react-jsx-runtime.production.js (node_prod)
+
+ BUILDING  react-jsx-runtime.profiling.js (node_profiling)
+ COMPLETE  react-jsx-runtime.profiling.js (node_profiling)
+
+ BUILDING  JSXRuntime-dev.js (rn_fb_dev)
+ COMPLETE  JSXRuntime-dev.js (rn_fb_dev)
+
+ BUILDING  JSXRuntime-prod.js (rn_fb_prod)
+ COMPLETE  JSXRuntime-prod.js (rn_fb_prod)
+
+ BUILDING  JSXRuntime-profiling.js (rn_fb_profiling)
+ COMPLETE  JSXRuntime-profiling.js (rn_fb_profiling)
+
+ BUILDING  react-compiler-runtime.development.js (node_dev)
+ COMPLETE  react-compiler-runtime.development.js (node_dev)
+
+ BUILDING  react-compiler-runtime.production.js (node_prod)
+ COMPLETE  react-compiler-runtime.production.js (node_prod)
+
+ BUILDING  react-compiler-runtime.profiling.js (node_profiling)
+ COMPLETE  react-compiler-runtime.profiling.js (node_profiling)
+
+ BUILDING  react-jsx-runtime.react-server.development.js (node_dev)
+ COMPLETE  react-jsx-runtime.react-server.development.js (node_dev)
+
+ BUILDING  react-jsx-runtime.react-server.production.js (node_prod)
+ COMPLETE  react-jsx-runtime.react-server.production.js (node_prod)
+
+ BUILDING  react-jsx-dev-runtime.development.js (node_dev)
+ COMPLETE  react-jsx-dev-runtime.development.js (node_dev)
+
+ BUILDING  react-jsx-dev-runtime.production.js (node_prod)
+ COMPLETE  react-jsx-dev-runtime.production.js (node_prod)
+
+ BUILDING  react-jsx-dev-runtime.profiling.js (node_profiling)
+ COMPLETE  react-jsx-dev-runtime.profiling.js (node_profiling)
+
+ BUILDING  JSXDEVRuntime-dev.js (fb_www_dev)
+ COMPLETE  JSXDEVRuntime-dev.js (fb_www_dev)
+
+ BUILDING  JSXDEVRuntime-prod.js (fb_www_prod)
+ COMPLETE  JSXDEVRuntime-prod.js (fb_www_prod)
+
+ BUILDING  JSXDEVRuntime-profiling.js (fb_www_profiling)
+ COMPLETE  JSXDEVRuntime-profiling.js (fb_www_profiling)
+
+ BUILDING  JSXDEVRuntime-dev.js (rn_fb_dev)
+ COMPLETE  JSXDEVRuntime-dev.js (rn_fb_dev)
+
+ BUILDING  JSXDEVRuntime-prod.js (rn_fb_prod)
+ COMPLETE  JSXDEVRuntime-prod.js (rn_fb_prod)
+
+ BUILDING  JSXDEVRuntime-profiling.js (rn_fb_profiling)
+ COMPLETE  JSXDEVRuntime-profiling.js (rn_fb_profiling)
+
+ BUILDING  react-jsx-dev-runtime.react-server.development.js (node_dev)
+ COMPLETE  react-jsx-dev-runtime.react-server.development.js (node_dev)
+
+ BUILDING  react-jsx-dev-runtime.react-server.production.js (node_prod)
+ COMPLETE  react-jsx-dev-runtime.react-server.production.js (node_prod)
+
+ BUILDING  react-dom.development.js (node_dev)
+ COMPLETE  react-dom.development.js (node_dev)
+
+ BUILDING  react-dom.production.js (node_prod)
+ COMPLETE  react-dom.production.js (node_prod)
+
+ BUILDING  react-dom-client.development.js (node_dev)
+ COMPLETE  react-dom-client.development.js (node_dev)
+
+ BUILDING  react-dom-client.production.js (node_prod)
+ COMPLETE  react-dom-client.production.js (node_prod)
+
+ BUILDING  react-dom-profiling.development.js (node_dev)
+ COMPLETE  react-dom-profiling.development.js (node_dev)
+
+ BUILDING  react-dom-profiling.profiling.js (node_profiling)
+ COMPLETE  react-dom-profiling.profiling.js (node_profiling)
+
+ BUILDING  ReactDOM-dev.js (fb_www_dev)
+ COMPLETE  ReactDOM-dev.js (fb_www_dev)
+
+ BUILDING  ReactDOM-prod.js (fb_www_prod)
+ COMPLETE  ReactDOM-prod.js (fb_www_prod)
+
+ BUILDING  ReactDOM-profiling.js (fb_www_profiling)
+ COMPLETE  ReactDOM-profiling.js (fb_www_profiling)
+
+ BUILDING  ReactDOM-dev.js (rn_fb_dev)
+ COMPLETE  ReactDOM-dev.js (rn_fb_dev)
+
+ BUILDING  ReactDOM-prod.js (rn_fb_prod)
+ COMPLETE  ReactDOM-prod.js (rn_fb_prod)
+
+ BUILDING  ReactDOM-profiling.js (rn_fb_profiling)
+ COMPLETE  ReactDOM-profiling.js (rn_fb_profiling)
+
+ BUILDING  ReactDOMClient-dev.js (rn_fb_dev)
+ COMPLETE  ReactDOMClient-dev.js (rn_fb_dev)
+
+ BUILDING  ReactDOMClient-prod.js (rn_fb_prod)
+ COMPLETE  ReactDOMClient-prod.js (rn_fb_prod)
+
+ BUILDING  ReactDOMClient-profiling.js (rn_fb_profiling)
+ COMPLETE  ReactDOMClient-profiling.js (rn_fb_profiling)
+
+ BUILDING  ReactDOMProfiling-dev.js (rn_fb_dev)
+ COMPLETE  ReactDOMProfiling-dev.js (rn_fb_dev)
+
+ BUILDING  ReactDOMProfiling-prod.js (rn_fb_prod)
+ COMPLETE  ReactDOMProfiling-prod.js (rn_fb_prod)
+
+ BUILDING  ReactDOMProfiling-profiling.js (rn_fb_profiling)
+ COMPLETE  ReactDOMProfiling-profiling.js (rn_fb_profiling)
+
+ BUILDING  ReactDOMTestUtils-dev.js (rn_fb_dev)
+ COMPLETE  ReactDOMTestUtils-dev.js (rn_fb_dev)
+
+ BUILDING  ReactDOMTestUtils-prod.js (rn_fb_prod)
+ COMPLETE  ReactDOMTestUtils-prod.js (rn_fb_prod)
+
+ BUILDING  ReactDOMTestUtils-profiling.js (rn_fb_profiling)
+ COMPLETE  ReactDOMTestUtils-profiling.js (rn_fb_profiling)
+
+ BUILDING  react-dom.react-server.development.js (node_dev)
+ COMPLETE  react-dom.react-server.development.js (node_dev)
+
+ BUILDING  react-dom.react-server.production.js (node_prod)
+ COMPLETE  react-dom.react-server.production.js (node_prod)
+
+ BUILDING  react-dom-test-utils.development.js (node_dev)
+ COMPLETE  react-dom-test-utils.development.js (node_dev)
+
+ BUILDING  react-dom-test-utils.production.js (node_prod)
+ COMPLETE  react-dom-test-utils.production.js (node_prod)
+
+ BUILDING  ReactDOMTesting-dev.js (fb_www_dev)
+ COMPLETE  ReactDOMTesting-dev.js (fb_www_dev)
+
+ BUILDING  ReactDOMTesting-prod.js (fb_www_prod)
+ COMPLETE  ReactDOMTesting-prod.js (fb_www_prod)
+
+ BUILDING  react-dom-server-legacy.browser.development.js (node_dev)
+ COMPLETE  react-dom-server-legacy.browser.development.js (node_dev)
+
+ BUILDING  react-dom-server-legacy.browser.production.js (node_prod)
+ COMPLETE  react-dom-server-legacy.browser.production.js (node_prod)
+
+ BUILDING  ReactDOMServer-dev.js (fb_www_dev)
+ COMPLETE  ReactDOMServer-dev.js (fb_www_dev)
+
+ BUILDING  ReactDOMServer-prod.js (fb_www_prod)
+ COMPLETE  ReactDOMServer-prod.js (fb_www_prod)
+
+ BUILDING  react-dom-server-legacy.node.development.js (node_dev)
+ COMPLETE  react-dom-server-legacy.node.development.js (node_dev)
+
+ BUILDING  react-dom-server-legacy.node.production.js (node_prod)
+ COMPLETE  react-dom-server-legacy.node.production.js (node_prod)
+
+ BUILDING  react-dom-server.browser.development.js (node_dev)
+ COMPLETE  react-dom-server.browser.development.js (node_dev)
+
+ BUILDING  react-dom-server.browser.production.js (node_prod)
+ COMPLETE  react-dom-server.browser.production.js (node_prod)
+
+ BUILDING  react-dom-server.node.development.js (node_dev)
+ COMPLETE  react-dom-server.node.development.js (node_dev)
+
+ BUILDING  react-dom-server.node.production.js (node_prod)
+ COMPLETE  react-dom-server.node.production.js (node_prod)
+
+ BUILDING  react-dom-server.edge.development.js (node_dev)
+ COMPLETE  react-dom-server.edge.development.js (node_dev)
+
+ BUILDING  react-dom-server.edge.production.js (node_prod)
+ COMPLETE  react-dom-server.edge.production.js (node_prod)
+
+ BUILDING  react-dom-server.bun.development.js (bun_dev)
+ COMPLETE  react-dom-server.bun.development.js (bun_dev)
+
+ BUILDING  react-dom-server.bun.production.js (bun_prod)
+ COMPLETE  react-dom-server.bun.production.js (bun_prod)
+
+ BUILDING  react-server-dom-webpack-server.browser.development.js (node_dev)
+ COMPLETE  react-server-dom-webpack-server.browser.development.js (node_dev)
+
+ BUILDING  react-server-dom-webpack-server.browser.production.js (node_prod)
+ COMPLETE  react-server-dom-webpack-server.browser.production.js (node_prod)
+
+ BUILDING  react-server-dom-webpack-server.node.development.js (node_dev)
+ COMPLETE  react-server-dom-webpack-server.node.development.js (node_dev)
+
+ BUILDING  react-server-dom-webpack-server.node.production.js (node_prod)
+ COMPLETE  react-server-dom-webpack-server.node.production.js (node_prod)
+
+ BUILDING  react-server-dom-webpack-server.node.unbundled.development.js (node_dev)
+ COMPLETE  react-server-dom-webpack-server.node.unbundled.development.js (node_dev)
+
+ BUILDING  react-server-dom-webpack-server.node.unbundled.production.js (node_prod)
+ COMPLETE  react-server-dom-webpack-server.node.unbundled.production.js (node_prod)
+
+ BUILDING  react-server-dom-webpack-server.edge.development.js (node_dev)
+ COMPLETE  react-server-dom-webpack-server.edge.development.js (node_dev)
+
+ BUILDING  react-server-dom-webpack-server.edge.production.js (node_prod)
+ COMPLETE  react-server-dom-webpack-server.edge.production.js (node_prod)
+
+ BUILDING  react-server-dom-webpack-client.browser.development.js (node_dev)
+ COMPLETE  react-server-dom-webpack-client.browser.development.js (node_dev)
+
+ BUILDING  react-server-dom-webpack-client.browser.production.js (node_prod)
+ COMPLETE  react-server-dom-webpack-client.browser.production.js (node_prod)
+
+ BUILDING  react-server-dom-webpack-client.node.development.js (node_dev)
+ COMPLETE  react-server-dom-webpack-client.node.development.js (node_dev)
+
+ BUILDING  react-server-dom-webpack-client.node.production.js (node_prod)
+ COMPLETE  react-server-dom-webpack-client.node.production.js (node_prod)
+
+ BUILDING  react-server-dom-webpack-client.node.unbundled.development.js (node_dev)
+ COMPLETE  react-server-dom-webpack-client.node.unbundled.development.js (node_dev)
+
+ BUILDING  react-server-dom-webpack-client.node.unbundled.production.js (node_prod)
+ COMPLETE  react-server-dom-webpack-client.node.unbundled.production.js (node_prod)
+
+ BUILDING  react-server-dom-webpack-client.edge.development.js (node_dev)
+ COMPLETE  react-server-dom-webpack-client.edge.development.js (node_dev)
+
+ BUILDING  react-server-dom-webpack-client.edge.production.js (node_prod)
+ COMPLETE  react-server-dom-webpack-client.edge.production.js (node_prod)
+
+ BUILDING  react-server-dom-webpack-plugin.js (node_es2015)
+ COMPLETE  react-server-dom-webpack-plugin.js (node_es2015)
+
+ BUILDING  react-server-dom-webpack-node-loader.production.js (esm_prod)
+ COMPLETE  react-server-dom-webpack-node-loader.production.js (esm_prod)
+
+ BUILDING  react-server-dom-webpack-node-register.js (node_es2015)
+ COMPLETE  react-server-dom-webpack-node-register.js (node_es2015)
+
+ BUILDING  react-server-dom-turbopack-server.browser.development.js (node_dev)
+ COMPLETE  react-server-dom-turbopack-server.browser.development.js (node_dev)
+
+ BUILDING  react-server-dom-turbopack-server.browser.production.js (node_prod)
+ COMPLETE  react-server-dom-turbopack-server.browser.production.js (node_prod)
+
+ BUILDING  react-server-dom-turbopack-server.node.development.js (node_dev)
+ COMPLETE  react-server-dom-turbopack-server.node.development.js (node_dev)
+
+ BUILDING  react-server-dom-turbopack-server.node.production.js (node_prod)
+ COMPLETE  react-server-dom-turbopack-server.node.production.js (node_prod)
+
+ BUILDING  react-server-dom-turbopack-server.edge.development.js (node_dev)
+ COMPLETE  react-server-dom-turbopack-server.edge.development.js (node_dev)
+
+ BUILDING  react-server-dom-turbopack-server.edge.production.js (node_prod)
+ COMPLETE  react-server-dom-turbopack-server.edge.production.js (node_prod)
+
+ BUILDING  react-server-dom-turbopack-client.browser.development.js (node_dev)
+ COMPLETE  react-server-dom-turbopack-client.browser.development.js (node_dev)
+
+ BUILDING  react-server-dom-turbopack-client.browser.production.js (node_prod)
+ COMPLETE  react-server-dom-turbopack-client.browser.production.js (node_prod)
+
+ BUILDING  react-server-dom-turbopack-client.node.development.js (node_dev)
+ COMPLETE  react-server-dom-turbopack-client.node.development.js (node_dev)
+
+ BUILDING  react-server-dom-turbopack-client.node.production.js (node_prod)
+ COMPLETE  react-server-dom-turbopack-client.node.production.js (node_prod)
+
+ BUILDING  react-server-dom-turbopack-client.edge.development.js (node_dev)
+ COMPLETE  react-server-dom-turbopack-client.edge.development.js (node_dev)
+
+ BUILDING  react-server-dom-turbopack-client.edge.production.js (node_prod)
+ COMPLETE  react-server-dom-turbopack-client.edge.production.js (node_prod)
+
+ BUILDING  react-server-dom-parcel-server.browser.development.js (node_dev)
+ COMPLETE  react-server-dom-parcel-server.browser.development.js (node_dev)
+
+ BUILDING  react-server-dom-parcel-server.browser.production.js (node_prod)
+ COMPLETE  react-server-dom-parcel-server.browser.production.js (node_prod)
+
+ BUILDING  react-server-dom-parcel-server.node.development.js (node_dev)
+ COMPLETE  react-server-dom-parcel-server.node.development.js (node_dev)
+
+ BUILDING  react-server-dom-parcel-server.node.production.js (node_prod)
+ COMPLETE  react-server-dom-parcel-server.node.production.js (node_prod)
+
+ BUILDING  react-server-dom-parcel-server.edge.development.js (node_dev)
+ COMPLETE  react-server-dom-parcel-server.edge.development.js (node_dev)
+
+ BUILDING  react-server-dom-parcel-server.edge.production.js (node_prod)
+ COMPLETE  react-server-dom-parcel-server.edge.production.js (node_prod)
+
+ BUILDING  react-server-dom-parcel-client.browser.development.js (node_dev)
+ COMPLETE  react-server-dom-parcel-client.browser.development.js (node_dev)
+
+ BUILDING  react-server-dom-parcel-client.browser.production.js (node_prod)
+ COMPLETE  react-server-dom-parcel-client.browser.production.js (node_prod)
+
+ BUILDING  react-server-dom-parcel-client.node.development.js (node_dev)
+ COMPLETE  react-server-dom-parcel-client.node.development.js (node_dev)
+
+ BUILDING  react-server-dom-parcel-client.node.production.js (node_prod)
+ COMPLETE  react-server-dom-parcel-client.node.production.js (node_prod)
+
+ BUILDING  react-server-dom-parcel-client.edge.development.js (node_dev)
+ COMPLETE  react-server-dom-parcel-client.edge.development.js (node_dev)
+
+ BUILDING  react-server-dom-parcel-client.edge.production.js (node_prod)
+ COMPLETE  react-server-dom-parcel-client.edge.production.js (node_prod)
+
+ BUILDING  react-server-dom-esm-server.node.development.js (node_dev)
+ COMPLETE  react-server-dom-esm-server.node.development.js (node_dev)
+
+ BUILDING  react-server-dom-esm-server.node.production.js (node_prod)
+ COMPLETE  react-server-dom-esm-server.node.production.js (node_prod)
+
+ BUILDING  react-server-dom-esm-client.browser.development.js (esm_dev)
+ COMPLETE  react-server-dom-esm-client.browser.development.js (esm_dev)
+
+ BUILDING  react-server-dom-esm-client.browser.production.js (esm_prod)
+ COMPLETE  react-server-dom-esm-client.browser.production.js (esm_prod)
+
+ BUILDING  react-server-dom-esm-client.browser.development.js (node_dev)
+ COMPLETE  react-server-dom-esm-client.browser.development.js (node_dev)
+
+ BUILDING  react-server-dom-esm-client.browser.production.js (node_prod)
+ COMPLETE  react-server-dom-esm-client.browser.production.js (node_prod)
+
+ BUILDING  react-server-dom-esm-client.node.development.js (node_dev)
+ COMPLETE  react-server-dom-esm-client.node.development.js (node_dev)
+
+ BUILDING  react-server-dom-esm-client.node.production.js (node_prod)
+ COMPLETE  react-server-dom-esm-client.node.production.js (node_prod)
+
+ BUILDING  react-server-dom-esm-node-loader.production.js (esm_prod)
+ COMPLETE  react-server-dom-esm-node-loader.production.js (esm_prod)
+
+ BUILDING  react-suspense-test-utils.js (node_es2015)
+ COMPLETE  react-suspense-test-utils.js (node_es2015)
+
+ BUILDING  react-art.development.js (node_dev)
+ COMPLETE  react-art.development.js (node_dev)
+
+ BUILDING  react-art.production.js (node_prod)
+ COMPLETE  react-art.production.js (node_prod)
+
+ BUILDING  ReactART-dev.js (fb_www_dev)
+ COMPLETE  ReactART-dev.js (fb_www_dev)
+
+ BUILDING  ReactART-prod.js (fb_www_prod)
+ COMPLETE  ReactART-prod.js (fb_www_prod)
+
+ BUILDING  ReactNativeRenderer-dev.js (rn_fb_dev)
+ COMPLETE  ReactNativeRenderer-dev.js (rn_fb_dev)
+
+ BUILDING  ReactNativeRenderer-prod.js (rn_fb_prod)
+ COMPLETE  ReactNativeRenderer-prod.js (rn_fb_prod)
+
+ BUILDING  ReactNativeRenderer-profiling.js (rn_fb_profiling)
+ COMPLETE  ReactNativeRenderer-profiling.js (rn_fb_profiling)
+
+ BUILDING  ReactNativeRenderer-dev.js (rn_oss_dev)
